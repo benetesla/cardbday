@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Card - 2020</title>
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .card {
+            margin: 0 auto;
+            margin-top: 10%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            text-align: center;
+            font-family: arial;
+            border-radius: 18px;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            height: 150px;
+            width: 100%;
+            overflow: hidden;
+            border-top-left-radius: 18px;
+            border-top-right-radius: 18px;
+            shape-image-threshold: 0.5;
+        }
+
+        .card-title {
+            color: gray;
+            font-size: 18px;
+        }
+
+        .card-text {
+            font-size: 14px;
+        }
+
+        .btn {
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            margin: 10px;
+        }
+
+        .btn:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+    <script>
+        function BirthdayMsg() {
+            alert("Quero ver alguém te dar um presente melhor que esse!")
+        }    
+    </script>
+</head>
+
+<body>
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://th.bing.com/th/id/OIP.IbKbZmpzkpWInIuCjrxhqgHaF7?rs=1&pid=ImgDetMain" class="card-img-top"
+            alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Feliz Aniversário</h5>
+            <p class="card-text">
+                Este é um presente de aniversário para você, espero que goste!
+                Assinado: <b>Seu amigo</b>
+           </p>
+            <button class="btn" onclick="BirthdayMsg()">Clique aqui</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
